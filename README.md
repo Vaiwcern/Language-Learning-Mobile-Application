@@ -33,7 +33,7 @@ The backend is built with **Flask (Python)** following an MVC-like pattern:
 The **MySQL database** is used to define tables, relationships, and store structured data. The schema is managed locally using **MySQL Workbench**.
 
 <p align="center">
-  <img src="assets/ArchitectureImages/architecture.png" alt="Architecture Diagram" width="700"/>
+  <img src="assets/ArchitectureImages/architecture_new.png" alt="Architecture Diagram" width="700"/>
 </p>
 
 ---
@@ -41,7 +41,7 @@ The **MySQL database** is used to define tables, relationships, and store struct
 ### 🖼️ System Tree
 
 <p align="center">
-  <img src="assets/ArchitectureImages/systemTree.png" alt="System Tree" width="700"/>
+  <img src="assets/ArchitectureImages/systemTree_new.png" alt="System Tree" width="700"/>
 </p>
 
 
