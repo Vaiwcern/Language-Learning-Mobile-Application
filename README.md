@@ -58,6 +58,16 @@ The **MySQL database** is used to define tables, relationships, and store struct
   <img src="assets/ArchitectureImages/systemTree_new.png" alt="System Tree" width="700"/>
 </p>
 
+### 🗃️ Database Design
+
+The system uses a **relational database (MySQL)** to store user data, learning progress, lessons, contests, and other application resources.  
+The design ensures referential integrity and supports efficient data queries for both the backend and client.
+
+<p align="center">
+  <img src="assets/DataImages/database_diagram.png" alt="Database Diagram" width="700"/>
+</p>
+
+
 # ✨ Features
 
 
