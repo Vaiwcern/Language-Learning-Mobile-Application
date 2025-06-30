@@ -1,4 +1,4 @@
-# 📱 Language Learning Mobile Application
+# 📱 Language Learning Mobile Application (4lingo)
 
 This is an Android application designed to help users practice all four essential language skills: **listening**, **speaking**, **reading**, and **writing**.  
 It also includes features for **learning vocabulary** through interactive exercises and structured lessons.
