@@ -7,19 +7,36 @@ The app is developed using **Java** with **Android Studio** for the frontend, an
 
 You can [📄 View the project report (PDF)](report.pdf) or ▶️ [Watch demo video on YouTube](https://youtu.be/ByzojncIdvE?si=ypMQmS76E8vLIM8r)
 
-## 🏗️ Architecture
+# 🏗️ Architecture
 
-The system follows a **three-tier architecture** consisting of:
+The application follows a **three-tier architecture** consisting of:
 
 - A mobile frontend built with **Android Studio (Java/XML)**
-- A backend server built with **Python Flask**
-- A **MySQL database** for persistent storage
+- A backend server developed using **Python Flask**
+- A **MySQL** relational database for persistent storage
+
+---
 
 ### 📌 Overall System Architecture
 
+The frontend includes a clean separation between UI, logic, and networking layers:
+
+- **GUI (Layouts & XML)**: defines UI structure and style; dynamically updated on user interaction.
+- **Controller (Activities/Fragments)**: manages app lifecycle, processes user input, calls service functions, and updates the UI based on backend responses.
+- **Service layer**: sends HTTP requests to the backend and handles responses.
+
+The backend is built with **Flask (Python)** following an MVC-like pattern:
+
+- **Controllers (Routes)**: handle HTTP requests and route them to appropriate services.
+- **Service layer**: processes logic, interacts with **SQLAlchemy**, and (optionally) external APIs.
+
+The **MySQL database** is used to define tables, relationships, and store structured data. The schema is managed locally using **MySQL Workbench**.
+
 <p align="center">
-  <img src="assets/ArchitectureImages/achitecture.png" alt="Architecture Diagram" width="700"/>
+  <img src="assets/ArchitectureImages/architecture.png" alt="Architecture Diagram" width="700"/>
 </p>
+
+---
 
 ### 🖼️ System Tree
 
@@ -27,46 +44,6 @@ The system follows a **three-tier architecture** consisting of:
   <img src="assets/ArchitectureImages/systemTree.png" alt="System Tree" width="700"/>
 </p>
 
----
-
-### 📱 Frontend – Android (Java, XML)
-
-The frontend is built using **Android Studio** with a clear separation between GUI, Controller, and Service layers:
-
-- **GUI (Layouts, XML)**:  
-  - Defines the structure and look of the UI (using XML Layouts)  
-  - Handles dynamic UI updates based on user interaction  
-
-- **Controller (Activity/Fragment)**:  
-  - Manages the app's lifecycle and logic flow  
-  - Formats user input and delegates tasks to Service layer  
-  - Receives and handles responses for UI updates  
-
-- **Service Layer**:  
-  - Sends HTTP requests to the backend  
-  - Processes responses and returns results to the Controller  
-
----
-
-### 🔧 Backend – Flask (Python)
-
-The backend follows a modular structure using the MVC pattern:
-
-- **Controller (Routes)**:  
-  - Handles HTTP routes and request parsing  
-  - Delegates logic to the service layer
-
-- **Service Layer**:  
-  - Interacts with the database via **SQLAlchemy**  
-  - Communicates with third-party APIs (if needed)  
-  - Processes business logic and returns responses
-
----
-
-### 🗄️ Database – MySQL
-
-- Uses **MySQL** to store and manage structured data, including relationships between tables  
-- **MySQL Workbench** is used to host and manage the local database schema
 
 
 # ⚙️ Implementation
