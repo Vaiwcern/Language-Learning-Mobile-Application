@@ -1,3 +1,1 @@
-# 4lingo
-4Lingo Project 
-.
+Language Learning Mobile Application
