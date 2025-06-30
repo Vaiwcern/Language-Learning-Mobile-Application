@@ -7,6 +7,20 @@ The app is developed using **Java** with **Android Studio** for the frontend, an
 
 You can [📄 View the project report (PDF)](report.pdf) or ▶️ [Watch demo video on YouTube](https://youtu.be/ByzojncIdvE?si=ypMQmS76E8vLIM8r)
 
+## 🛠️ Development Process
+
+This project was developed over the course of a semester (4 months), following a standard software engineering workflow. The full process included:
+
+- **Requirement analysis**: Understanding the problem and defining functional and non-functional requirements  
+- **System design**: Planning the overall architecture, database schema, and application structure  
+- **Implementation**: Developing the frontend (Android) and backend (Flask) components  
+- **Testing**: Performing both unit and integration testing to ensure functionality and reliability  
+- **Deployment**: Running and validating the system on real devices and local servers  
+- **Evaluation & improvement**: Gathering feedback, fixing bugs, and improving usability  
+
+All related reports and documentation can be found in the [`/process_report/`](process_report/) folder.
+
+
 # 🏗️ Architecture
 
 The application follows a **three-tier architecture** consisting of:
