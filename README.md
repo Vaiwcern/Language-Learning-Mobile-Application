@@ -73,6 +73,30 @@ Users can also view and update personal information such as **name**, **phone nu
   </tr>
 </table>
 
+
+## 🧠 Learn Vocabulary
+
+The app helps users build and retain vocabulary through two integrated tools:
+
+- **Bilingual Dictionary**:  
+  Users can look up English–Vietnamese word definitions, phonetic transcriptions, and save useful words to their personal vocabulary note for later review.
+
+- **Vocabulary Note**:  
+  When tapping a word, a pop-up shows its meaning and automatically adds it to the vocabulary list. Users can access this list from their profile and mark words as either **learned** or **not learned**, helping them track their progress.
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="assets/FeatureImages/DictionaryScreen.png" alt="Bilingual Dictionary" width="250"/><br/>
+      <em>Bilingual Dictionary</em>
+    </td>
+    <td align="center">
+      <img src="assets/FeatureImages/NoteScreen.png" alt="Vocabulary Note" width="250"/><br/>
+      <em>Vocabulary Note</em>
+    </td>
+  </tr>
+</table>
+
 ## 📚 Four Lesson Types
 
 The application offers four types of interactive learning exercises to help users reinforce vocabulary, sentence structure, and real-life conversations:
@@ -103,25 +127,39 @@ The application offers four types of interactive learning exercises to help user
   </tr>
 </table>
 
-## 🧠 Learn Vocabulary
+## 🧩 Others
 
-The app helps users build and retain vocabulary through two integrated tools:
+The application also includes various supporting features to increase motivation and engagement:
 
-- **Bilingual Dictionary**:  
-  Users can look up English–Vietnamese word definitions, phonetic transcriptions, and save useful words to their personal vocabulary note for later review.
+- **Achievements**:  
+  Learners receive achievements upon completing lessons or participating in contests created by instructors or administrators.
 
-- **Vocabulary Note**:  
-  When tapping a word, a pop-up shows its meaning and automatically adds it to the vocabulary list. Users can access this list from their profile and mark words as either **learned** or **not learned**, helping them track their progress.
+- **Leaderboard**:  
+  Users are ranked based on the total points they earn from lessons, fostering friendly competition and consistent learning.
+
+- **Lesson Feedback**:  
+  After each lesson, users can submit reviews by rating the lesson with stars and leaving written feedback to help improve content quality.
+
+- **Contests**:  
+  Authorized users and administrators can organize **private or public contests**. All users can browse available or ongoing contests to **register or follow**.
 
 <table>
   <tr>
     <td align="center">
-      <img src="assets/FeatureImages/DictionaryScreen.png" alt="Bilingual Dictionary" width="250"/><br/>
-      <em>Bilingual Dictionary</em>
+      <img src="assets/FeatureImages/AchievementScreen.png" alt="Achievements" width="220"/><br/>
+      <em>Achievements</em>
     </td>
     <td align="center">
-      <img src="assets/FeatureImages/NoteScreen.png" alt="Vocabulary Note" width="250"/><br/>
-      <em>Vocabulary Note</em>
+      <img src="assets/FeatureImages/LeaderBoard.png" alt="Leaderboard" width="220"/><br/>
+      <em>Leaderboard</em>
+    </td>
+    <td align="center">
+      <img src="assets/FeatureImages/ReviewLesson.png" alt="Lesson Feedback" width="220"/><br/>
+      <em>Lesson Feedback</em>
+    </td>
+    <td align="center">
+      <img src="assets/FeatureImages/ContestScreen.png" alt="Contest" width="220"/><br/>
+      <em>Contest</em>
     </td>
   </tr>
 </table>
