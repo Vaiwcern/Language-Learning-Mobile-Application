@@ -73,6 +73,37 @@ Users can also view and update personal information such as **name**, **phone nu
   </tr>
 </table>
 
+## 📚 Four Lesson Types
+
+The application offers four types of interactive learning exercises to help users reinforce vocabulary, sentence structure, and real-life conversations:
+
+- **Word Matching**: Match a word to its correct meaning or synonym.
+- **Multiple Choice Questions**: Choose the correct answer based on a given question.
+- **Translation**: Select and arrange the given words to form the correct translated sentence.
+- **Conversation**: Choose the correct dialogue that matches the context of a short story or conversation.
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="assets/FeatureImages/WordMatchingExerciseScreen.png" alt="Word Matching" width="200"/><br/>
+      <em>Word Matching</em>
+    </td>
+    <td align="center">
+      <img src="assets/FeatureImages/MultipleChoiceQuestion.png" alt="Multiple Choice" width="200"/><br/>
+      <em>Multiple Choice</em>
+    </td>
+    <td align="center">
+      <img src="assets/FeatureImages/TranslationExercise.png" alt="Translation" width="200"/><br/>
+      <em>Translation</em>
+    </td>
+    <td align="center">
+      <img src="assets/FeatureImages/ConversationExercise.png" alt="Conversation" width="200"/><br/>
+      <em>Conversation</em>
+    </td>
+  </tr>
+</table>
+
+
 
 # ⚙️ Implementation
 
