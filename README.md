@@ -44,6 +44,34 @@ The **MySQL database** is used to define tables, relationships, and store struct
   <img src="assets/ArchitectureImages/systemTree_new.png" alt="System Tree" width="700"/>
 </p>
 
+# ✨ Features
+
+
+## 👤 Account Management
+
+The application provides a complete account management system, allowing users to securely log in, sign up, and recover their password.  
+Users can also view and update personal information such as **name**, **phone number**, and **email** via the profile screen.
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="assets/FeatureImages/ProfileScreen.png" alt="Profile" width="200"/><br/>
+      <em>Profile</em>
+    </td>
+    <td align="center">
+      <img src="assets/FeatureImages/LoginScreen.png" alt="Login" width="200"/><br/>
+      <em>Login</em>
+    </td>
+    <td align="center">
+      <img src="assets/FeatureImages/SignupScreen.png" alt="Sign Up" width="200"/><br/>
+      <em>Sign Up</em>
+    </td>
+    <td align="center">
+      <img src="assets/FeatureImages/GetPassword.png" alt="Forgot Password" width="200"/><br/>
+      <em>Forgot Password</em>
+    </td>
+  </tr>
+</table>
 
 
 # ⚙️ Implementation
