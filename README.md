@@ -18,7 +18,7 @@ The system follows a **three-tier architecture** consisting of:
 ### 📌 Overall System Architecture
 
 <p align="center">
-  <img src="assets/ArchitectureImages/architecture.png" alt="Architecture Diagram" width="700"/>
+  <img src="assets/ArchitectureImages/achitecture.png" alt="Architecture Diagram" width="700"/>
 </p>
 
 ### 🖼️ System Tree
